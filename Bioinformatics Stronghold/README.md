@@ -5,6 +5,6 @@ The link above will provide overall all TREE of Bioinformatic Stronghold Problem
 <br/>
 The LEVEL is the degree of the problem tree.
 <br/>
-## Current Progress  
+## Current Progress   
 Finished Tutorials, level 1.  
 Trying level 2.  
