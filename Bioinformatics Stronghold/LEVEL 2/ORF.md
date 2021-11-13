@@ -49,6 +49,7 @@ TGG W      CGG R      AGG R      GGG G """.split()
 codon_dict = dict(zip(codon[::2],codon[1::2]))
 targets = seq, seq[1:], seq[2:], rev_comp, rev_comp[1:], rev_comp[2:]
 
+#find start points
 for idx, frame in enumerate(targets) :
     for i in range(len(frame)-2):
         triplet = ''
@@ -56,7 +57,8 @@ for idx, frame in enumerate(targets) :
             triplet = frame[i] + frame[i+1] + frame[i+2]
             if(codon_dict[triplet] == 'M'):
                 ATGs[idx].append(i)
-
+                
+#encode from start points to stop codons
 for idx, frame in enumerate(targets) :
     for start in ATGs[idx] :
         PROT = ''
@@ -64,7 +66,8 @@ for idx, frame in enumerate(targets) :
             triplet = ''
             if(i%3==0) :
                 triplet = frame[start+i] + frame[start+i+1] + frame[start+i+2]
-            
+                
+                #stop codon
                 if(codon_dict[triplet] == 'Stop'):
                     frames.add(PROT)
                     break
