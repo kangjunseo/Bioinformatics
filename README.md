@@ -14,6 +14,6 @@ This repository is for collect python codes and jupyter notebooks when I used to
 
 ###
 
-## Course I studied
+## Course I'm studying
 
 [Coursera Bioinformatics Course](https://www.coursera.org/specializations/bioinformatics)
