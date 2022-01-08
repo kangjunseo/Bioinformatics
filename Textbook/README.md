@@ -1,7 +1,7 @@
 ## Textbook
 
 |Chapter|Status|
-|--|--|
+|:--:|--|
 Chapter 1 | FIN  
 Chapter 2 | FIN  
 Chapter 5 | FIN  
