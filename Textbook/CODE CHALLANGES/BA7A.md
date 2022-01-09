@@ -14,7 +14,6 @@ Return: A space-separated n x n (di, j), where di, j is the length of the path b
 I = input().split()
 N = int(I[0])
 G = [[1e9 for _ in range(100)] for _ in range(100)]
-mat = [[0 for _ in range(N)] for _ in range(N)]
 max_ = 0
 
 for i in range(100): G[i][i]=0
