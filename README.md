@@ -3,6 +3,8 @@
 This repository is for collect python codes and jupyter notebooks when I used to solve bioinformatics problems.  
 
 <br/>
+## QBioLab Internship
+[lab info](https://qbio.io)
 
 ## Bioinformatics Stronghold
 
