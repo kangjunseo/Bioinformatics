@@ -10,7 +10,7 @@
 
 ### In This Study
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled.png)
+![Untitled](LIN28A/Untitled.png)
 
 - obtain genome-wide view of molecular function of LIN28A
 - RNA crosslinking-immunoprecipitation-sequencing(CLIP-seq), ribosome footprinting 활용
@@ -75,11 +75,11 @@
 
 ### LIN28A CLIP-seq from Mouse Embryonic Stem Cells
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%201.png)
+![Untitled](LIN28A/Untitled%201.png)
 
 **Figure 1A** : mESCs를 UV 처리 → RNase A로 lysis 후 antibody로 immunoprecipitate → linker ligate → RT-PCR로 증폭 → Illumina Genome Analyzer IIx로 시퀀싱
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%202.png)
+![Untitled](LIN28A/Untitled%202.png)
 
 **Figure S1A** : Left - LIN28A-RNA conjugate에 3’ linker만 연결된 것 autoradiography, Right - 5’ linker도 붙인 RT-PCR product
 
@@ -87,13 +87,13 @@
 
 - LIN28A-interacting RNAs의 specific isolation을 확실시 하기 위해, 3가지 다른 library와 3가지 antibody로 진행 (1 rabbit - Abcam, 2 mouse - 35L33G, 2J3)
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%203.png)
+![Untitled](LIN28A/Untitled%203.png)
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%204.png)
+![Untitled](LIN28A/Untitled%204.png)
 
 **Figure 1B, S1B** : siGFP는 control, siLin28a는 LIN28A가 depleted된 실험군, Left - LIN28A immunoprecipitation 결과의 western blot, Right - autoradiography of 5’-32P-labeled RNA-LIN28A complex
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%205.png)
+![Untitled](LIN28A/Untitled%205.png)
 
 **Figure S1C** : 3개의 library의 transcript level enrichment correlation 조사 → 0.93으로 충분한 reproducibility 확보
 
@@ -101,11 +101,11 @@
 
 - *let-7* family miRNA는 LIN28A의 target으로 가장 많이 연구 되었으므로, positive control로 아주 중요한 역할을 하게 됨
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%206.png)
+![Untitled](LIN28A/Untitled%206.png)
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%207.png)
+![Untitled](LIN28A/Untitled%207.png)
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%208.png)
+![Untitled](LIN28A/Untitled%208.png)
 
 **Figure 1C, S2A, S2B** : pre-let-7g의 terminal loop에 있는 GGAG motif 확인, 하단에 site mutation rateRK shannon’s entropy로 나타나 있음, 7 read 미만의 tag는 모두 삭제함
 
@@ -116,7 +116,7 @@ S2A, S2B는 minus strand로 진행됨
 - *let-7* family가 mESC에서 유일한 LIN28A의 miRNA target인지 불확실 → CLIP-seq library로 다른 LIN28A-interacting miRNA 분석
 - miRNA의 precursor 양을 정확하게 분석하는 방법 x → mature miRNA signal 활용
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%209.png)
+![Untitled](LIN28A/Untitled%209.png)
 
 **Figure 1E** : LIN28A CLIP-seq enrichment level(x축) - miRNA level change after *Lin28a* knockdown(y축)의 scatter plot
 
@@ -143,7 +143,7 @@ S2A, S2B는 minus strand로 진행됨
 
  
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2010.png)
+![Untitled](LIN28A/Untitled%2010.png)
 
 - **Figure S2C** : mutation error가 RNA-seq에 비해 CLIP-seq library에서 더 많이 일어남
 - **Figure S2D** : pre-let-7과 마찬가지로, G에서 가장 많은 mutation이 있었음
@@ -154,7 +154,7 @@ S2A, S2B는 minus strand로 진행됨
     - nucleotide composition의 randomness를 정량화함
     - single-nucleotide polymorphism/paralogous genes로 부터 기인한 false positive를 줄여줌
         
-        ![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2011.png)
+        ![Untitled](LIN28A/Untitled%2011.png)
         
 - **Figure S3A** : Shannon’s entropy를 적용한 Site mutation rate와 LIN28A enrichemnt level 사이의 유의미한 correlation 발견됨 → mutated site들이 LIN28A binding site에서 유래되었을 것임
 - **Figure S3B** : 516,259개의 putative binding site가 0.1%의 false discovery rate로 나타남 → LIN28A 결합 부위는 21.7 G 마다 발생
@@ -162,81 +162,81 @@ S2A, S2B는 minus strand로 진행됨
 
 ### LIN28A Favors Single-Stranded Purine-Rich Motifs
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2012.png)
+![Untitled](LIN28A/Untitled%2012.png)
 
 - **Figure S3C** : LIN28A binding site의 패턴 조사
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2013.png)
+![Untitled](LIN28A/Untitled%2013.png)
 
 - **Figure 2A** : consensus sequence를 찾기 위해 imformation content(top)와 frequency(bottom)   조사 → “AAGNGG”
 - **Figure 2B** : 10 most frequently observed sequene로, “AAGGAG”가 가장 자주 등장하였음
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2014.png)
+![Untitled](LIN28A/Untitled%2014.png)
 
 - **Figure 2C** : LIN28A-interacing hexamer들을 clustering하여 smiliarity network를 만듦. AAGNNG, AAGNG(N), (N)UGUG(N)로 대부분을 설명할 수 있음
 - “AAGNNG”가 LIN28A binding site의 주축을 이루고 있는데, 이는 LIN28A의 two zinc finger motif가 “AGNNG”를 인식한다는 다른 최근 논문과 일맥상통함
 - 가장 적게 나온 “UGUG” motif는 이 논문에서 처음 발견 되었고, 아마도 LIN28A binding의 다른 mode에 영향을 주는 것으로 추측 됨
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2015.png)
+![Untitled](LIN28A/Untitled%2015.png)
 
 - **Figure S4** : 각 group의 EMSA 결과, recombinant LIN28A protein과 synthesized RNA segment 활용 → UGUG가 가장 약한 결합력
 - CLIP-seq에서 자주 치환된 G에 돌연변이가 나면, LIN28A affinity를 크게 떨어뜨림 → motif들이 실제 LIN28A binding site를 나타낼 확률이 높음
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2016.png)
+![Untitled](LIN28A/Untitled%2016.png)
 
 - **Figure 2D** : binding motif 주변 서열들은 서로 상보적인 경우가 많음 (pre-let-7의 stem 부분을 담당)
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2017.png)
+![Untitled](LIN28A/Untitled%2017.png)
 
 - **Figure 2E** : Random sequence에 비해 WC-pair를 구성하는 경향이 확실히 뚜렷함(left), AAGNG pentamer의 경우(right)도 유사함
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2018.png)
+![Untitled](LIN28A/Untitled%2018.png)
 
 - **Figure S3D** : folding energy analysis, 더 강한 구조(낮은 free energy)는 CLIP libraries에서 나타남
 - hairpin 구조가 LIN28A-recognition를 더 쉽게 일어나도록 도움
 - 5-7 bp 정도의 stem을 가진 terminal loop hairpin에 위치한 “AAG(N)NG” motif에 결합하는 것이 가장 합리적인 듯함!
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2019.png)
+![Untitled](LIN28A/Untitled%2019.png)
 
 - **Figure S3E** : AAGGAG를 비롯한 유사한 sequence들이 거의 반이 CLIP-seq에 의해 free energy가 -6kcal/mol 이었음 → 분석을 통해 밝혀낸 sequence들이 LIN28A binding site와 충분히 연관됨
 
 ### Messenger RNAs Are the Major LIN28A Targets
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2020.png)
+![Untitled](LIN28A/Untitled%2020.png)
 
 - **Figure 3A** : LIN28A와 interact 하는 RNA의 종류에 대해 조사 → 42%가 mRNA로 매핑되었음, 반면에  miRNA는 고작 0.07%(그 중 0.05%가 *let-7* loci)
 - **Figure 3B** : intronic region에서는 강하게 depleted 됨 → LIN28A는 mature mRNA들과 반응
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2021.png)
+![Untitled](LIN28A/Untitled%2021.png)
 
 - **Figure 3C** : start과 stop codon 근처 분석 → CDS, 3’-UTR에 비해, 5’-UTR이 현저히 적음
 
 ### LIN28A Reduces Ribosome Occupancy without Affecting mRNA Abundance
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2022.png)
+![Untitled](LIN28A/Untitled%2022.png)
 
 - **Figure 4A** : LIN28A와 mRNA 양의 상관관계 분석 → 큰 관계가 없음
 - 이전 연구들에서 LIN28A가 *Igf2*, cyclin A 등 여러 mRNA의 translation positive regulator로 작용한다는 일관성 있는 결과 O
 - **Figure 4B** : LIN28A가 mESC에서 polysome과 결합함
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2023.png)
+![Untitled](LIN28A/Untitled%2023.png)
 
 - **Figure 4C** : Lucfierase를 silencing한 siLuc (control)과 siLin28a를 이용한 ribosome footprinting의 과정, 간단히 말하면 각 cell에서 ribosome 결합 부위만 모아서 sequencing
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2024.png)
+![Untitled](LIN28A/Untitled%2024.png)
 
 - **Figure S5A, S5B** : ribosome footprint의 density가 start codon의 근처와 upstream에서 높음 → CDS를 상당히 정확하게 파악, three-nucleotide periodicity도 합리적임
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2025.png)
+![Untitled](LIN28A/Untitled%2025.png)
 
 - **Figure 4D :** LIN28A와 ribosome density 간의 강한 positive correlation이 발견됨 → siLin28a이 siLuc보다 ribosome occupancy가 높음 → LIN28A는 target mRNA의 translation을 억제할 것임
 - **Figure 4E** : ribosome density change의 cumulative distribution (D를 그냥 다른 방식으로 표현)
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2026.png)
+![Untitled](LIN28A/Untitled%2026.png)
 
 - **Figure S5C** : Figure 4E와 같은 작업을 다른 여러 antibody로 진행한 것
     
-    ![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2027.png)
+    ![Untitled](LIN28A/Untitled%2027.png)
     
 - **Figure S5D** : Western blot을 통해, *Lin28a* knockdown 이후 각각의 gene들의 변화 관찰
     
@@ -246,7 +246,7 @@ S2A, S2B는 minus strand로 진행됨
 
 ### LIN28A Targets mRNAs Destined for Endoplasmic Reticulum
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2028.png)
+![Untitled](LIN28A/Untitled%2028.png)
 
 - **Figure 5A** : LIN28A에 의해 조절되는 translatoin을 GO(gene ontology) analysis
     
@@ -255,7 +255,7 @@ S2A, S2B는 minus strand로 진행됨
 - ER 관련 protein들이 대부분 LIN28A target이고, nucleus, cytoplasm의 경우는 표시 수가 적음
 - 이것조차도 사실은 nuclear protein이 overestimated 된 것임 (histone mRNA는 deplete 되므로)
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2029.png)
+![Untitled](LIN28A/Untitled%2029.png)
 
 - **Figure 5B** : integral membrane protein(주로 ER-associated translation 함) → 다른 protein에 비해 4~6 fold 이상으로 LIN28A와 반응
 - 추가로, Lin28a knockdown에서 integral membrane protein들의 translation이 active 해짐
@@ -263,9 +263,9 @@ S2A, S2B는 minus strand로 진행됨
 
 - tail-anchored transmembrane protein은 다른 ER-associated mRNA들과 달리, cytosol에서 합성되어 ER로 posttranslationally translocated 됨
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2030.png)
+![Untitled](LIN28A/Untitled%2030.png)
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2031.png)
+![Untitled](LIN28A/Untitled%2031.png)
 
 - **Figure 5D, Figure S6B** :  tail-anchored transmembrane protein은 CLIP-seq과 ribosome density 모두 LIN28A-depleted cell에서 증가하지 않음
     
@@ -273,17 +273,17 @@ S2A, S2B는 minus strand로 진행됨
     
 - regulation의 selectivity를 이해 → ER-associated mRNA들이 LIN28A-recognition motif를 더 가져오는지 확인해야 함
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2032.png)
+![Untitled](LIN28A/Untitled%2032.png)
 
 - **Figure S3F** :  HMM을 이용하여 모든 mRNA의 LIN28A-recognition site를 예측
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2033.png)
+![Untitled](LIN28A/Untitled%2033.png)
 
 - **Figure S6C** : ER과 non-ER의 차이가 별로 나지 않음 → sequence나 structural feature로는 구분 X
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2034.png)
+![Untitled](LIN28A/Untitled%2034.png)
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2035.png)
+![Untitled](LIN28A/Untitled%2035.png)
 
 - **Figure 5E, Figure S6D** : motif score로 비교하면 ER이 CLIP-seq에서 더 자주 detected 됨
     
@@ -292,15 +292,15 @@ S2A, S2B는 minus strand로 진행됨
 
 ### LIN28A Is Localized in Peri-ER Area
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2036.png)
+![Untitled](LIN28A/Untitled%2036.png)
 
 - **Figure 6A** : LIN28A signal이 ER 주변에서 감지됨 (KDEL은 ER-retention signal), cytosolic protein인 GAPDH와는 분포가 구별됨
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2037.png)
+![Untitled](LIN28A/Untitled%2037.png)
 
 - **Figure 6B** : 가시성을 위한 Figure 6A의 ectopically expressed version
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2038.png)
+![Untitled](LIN28A/Untitled%2038.png)
 
 - **Figure 6C** : subcellular fractionation → LIN28A가 RER의 microsomal fraction에 존재하는 것 확인
 - tubulin, ATF6 cytosol fragment와 같은 cytosolic protein들은 RER microsomal fraction에서 검출되지 않았지만, LIN28A는 확실한 양이 검출됨
@@ -314,7 +314,7 @@ S2A, S2B는 minus strand로 진행됨
 - CLIP-seq은 LIN28A binding site들을 genomic scale에서 single-nucleotide resolution으로 mapping 할 수 있게 함
 - 최근 연구에서 coimmunoprecipitation과 oligo-dT enrichment, deep sequencing을 융합하여 LIN28A target을 찾는 연구를 진행함
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2039.png)
+![Untitled](LIN28A/Untitled%2039.png)
 
 - **Figure S7A** : 위에서 언급한 그 연구의 data set과 너무 다름 (상관계수가 거의 0에 가까움)
     
@@ -333,7 +333,7 @@ S2A, S2B는 minus strand로 진행됨
 - CSD-RNA interaction은 발견은 못함 → CSD가 RNA와 너무 느리게 반응해서 그런듯
 - recognition element가 낮고, LIN28A가 풍부함 → mRNA당 38.5 site가 결합할 정도로 많은 mRNA들이 LIN28A에 결합
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2040.png)
+![Untitled](LIN28A/Untitled%2040.png)
 
 - **Figure 7A** : LIN28A의 localization model
 - LIN28A는 이미 transcript level에서 intracellular localization에 의해 이동함
@@ -347,14 +347,14 @@ S2A, S2B는 minus strand로 진행됨
      → *Lin28a*가 EB에서 downregulated 되기 때문
     
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2041.png)
+![Untitled](LIN28A/Untitled%2041.png)
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2042.png)
+![Untitled](LIN28A/Untitled%2042.png)
 
 - **Figure 7B, S7B, S7C** : 2 data간의 상당한 overlap 발견
 - EB differentiation 중에 upregulated 되는 gene → LIN28A-depleted ESC에서 enhance
 
-![Untitled](LIN28A%2084001ba378db44ae8ddd43d143d714ca/Untitled%2043.png)
+![Untitled](LIN28A/Untitled%2043.png)
 
 - **Figure S7D** : common pluripotency marker들은 모두 decreased 되지 않음
     
